@@ -1,6 +1,4 @@
 [C:\Users\Pedro Paulo Amorim\Documents\GitHub\Cloup\_error.log.txt]
-
-WARNING: do not load resources or do scene-related operations inside the main() function.
-Use onSceneLoaded or onSceneUpdate functions instead.
-Function used: AddToCameraPos
-
+[ERROR] main.angelscript, line 49: Unexpected end of file
+ERROR - Failed while building module.
+ERROR - ETHEngine::StartEngine: no scene has been loaded.
