@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<Ethanon>
+    <Entity shape="2" sensor="0" bullet="0" fixedRotation="0" friction="1" density="1" restitution="0.5" gravityScale="0.8" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+        <Sprite>person.png</Sprite>
+        <Particles>
+            <ParticleSystem particles="300" allAtOnce="0" alphaMode="0" repeat="0" animationMode="1" boundingSphere="128" lifeTime="500" randomLifeTime="1000" angleDir="1" randAngle="1" size="30" randomizeSize="0" growth="0.3" minSize="0" maxSize="100" angleStart="10" randAngleStart="1">
+                <Bitmap>particle.png</Bitmap>
+                <Gravity x="0" y="0.1" />
+                <Direction x="0" y="0" />
+                <RandomizeDir x="0" y="0" />
+                <SpriteCut x="1" y="1" />
+                <StartPoint x="-96" y="105" z="0" />
+                <RandStartPoint x="0" y="0" />
+                <Color0 r="1" g="0" b="0.5" a="1" />
+                <Color1 r="1" g="1" b="0.5" a="1" />
+                <Luminance r="0" g="1" b="1" />
+            </ParticleSystem>
+            <ParticleSystem particles="300" allAtOnce="0" alphaMode="0" repeat="0" animationMode="1" boundingSphere="128" lifeTime="500" randomLifeTime="1000" angleDir="1" randAngle="1" size="30" randomizeSize="0" growth="0.3" minSize="0" maxSize="100" angleStart="10" randAngleStart="1">
+                <Bitmap>particle.png</Bitmap>
+                <Gravity x="0" y="0.1" />
+                <Direction x="0" y="0" />
+                <RandomizeDir x="0" y="0" />
+                <SpriteCut x="1" y="1" />
+                <StartPoint x="96" y="103" z="0" />
+                <RandStartPoint x="0" y="0" />
+                <Color0 r="1" g="0" b="0.5" a="1" />
+                <Color1 r="1" g="1" b="0.5" a="1" />
+                <Luminance r="0" g="1" b="1" />
+            </ParticleSystem>
+        </Particles>
+        <Collision>
+            <Position x="0" y="0" z="0" />
+            <Size x="256" y="256" z="1" />
+            <Compound>
+                <![CDATA[
+
+// this is a compound shape sample
+// shape sizes and pos must be normalized (-1 to 1)
+// the final shape actual size is defined by our collision box
+
+// Lollipop sample
+
+candy
+{
+	shape = circle;
+	posX = 0.0;
+	posY =-0.5;
+	radius = 1.0;
+	angle = 0;
+}
+
+stick
+{
+	shape = box;
+	sizeX = 0.1;
+	sizeY = 2.0;
+	posX = 0.0;
+	posY = 0.0;
+	angle = 0;
+}
+
+]]>
+</Compound>
+        </Collision>
+        <CustomData />
+    </Entity>
+</Ethanon>

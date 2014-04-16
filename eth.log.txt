@@ -1,0 +1,18 @@
+[C:\Users\Pedro Paulo Amorim\Documents\GitHub\Cloup\eth.log.txt]
+Backbuffer created as 854, 480 on default backbuffer mode
+____________________________
+
+Loading game script from source-code: main.angelscript
+
+
+Compile time: 0 milliseconds
+
+WARNING: do not load resources or do scene-related operations inside the main() function.
+Use onSceneLoaded or onSceneUpdate functions instead.
+Function used: AddToCameraPos
+
+Backbuffer created as 1024, 768 on default backbuffer mode
+(Loaded) background.jpg
+(Loaded) floor.png
+(Loaded) person.png
+(Loaded) particle.png
